@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng - GreenLeaf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topbar">
+        <div class="container">
+            Giao cây tận nơi • Cây khỏe • Tư vấn chăm sóc miễn phí
+        </div>
+    </div>
+
+    <header>
+        <div class="container nav">
+            <a class="logo" href="index.html">
+                <span class="logo-mark">🌿</span>
+                GreenLeaf
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a class="" href="index.html">Trang chủ</a><a class="" href="products.html">Sản phẩm</a><a class="" href="guide.html">Cẩm nang chăm sóc</a><a class="" href="about.html">Giới thiệu</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a class="cart-btn" href="cart.html" aria-label="Giỏ hàng">
+                    🛒
+                    <span class="cart-count">0</span>
+                </a>
+
+                <button
+                    class="icon-btn mobile-menu"
+                    id="mobileMenu"
+                    aria-label="Mở menu"
+                >
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+    
+
+<section class="page-hero">
+    <div class="container">
+        <h1>Giỏ hàng</h1>
+        <p>Kiểm tra sản phẩm trước khi thanh toán.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container cart-layout">
+        <div class="cart-list">
+            <h2>Sản phẩm đã chọn</h2>
+            <div id="cartList"></div>
+        </div>
+
+        <aside class="summary">
+            <h2>Tổng đơn hàng</h2>
+
+            <p>
+                Phí vận chuyển sẽ được tư vấn khi xác nhận đơn.
+            </p>
+
+            <div class="total">
+                <span>Tạm tính</span>
+                <span id="cartTotal">0đ</span>
+            </div>
+
+            <a class="btn btn-dark" href="checkout.html" style="width:100%; text-align:center;">Thanh toán</a>
+        </aside>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo" style="color:white;">
+                        <span class="logo-mark">🌿</span>
+                        GreenLeaf
+                    </div>
+
+                    <p>
+                        Mang màu xanh tự nhiên vào từng góc nhỏ
+                        trong không gian sống của bạn.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Liên kết</h3>
+                    <a href="index.html">Trang chủ</a>
+                    <a href="products.html">Sản phẩm</a>
+                    <a href="guide.html">Cẩm nang</a>
+                    <a href="about.html">Giới thiệu</a>
+                </div>
+
+                <div>
+                    <h3>Hỗ trợ</h3>
+                    <a href="cart.html">Giỏ hàng</a>
+                    <a href="products.html">Chọn cây</a>
+                    <a href="guide.html">Chăm sóc cây</a>
+                </div>
+
+                <div>
+                    <h3>Liên hệ</h3>
+                    <p>📍 123 Đường Xanh, TP. Hồ Chí Minh</p>
+                    <p>☎ 0901 234 567</p>
+                    <p>✉ hello@greenleaf.vn</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                © 2026 GreenLeaf. Thiết kế website cửa hàng cây cảnh.
+            </div>
+        </div>
+    </footer>
+    
+
+<script src="script.js"></script>
+</body>
+</html>

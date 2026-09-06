@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanh toán - GreenLeaf</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar"><div class="container">
+Giao cây tận nơi • Cây khỏe • Tư vấn chăm sóc miễn phí
+</div></div>
+
+<header>
+<div class="container nav">
+<a class="logo" href="index.html"><span class="logo-mark">🌿</span>GreenLeaf</a>
+<nav class="nav-links" id="navLinks">
+<a href="index.html">Trang chủ</a>
+<a href="products.html">Sản phẩm</a>
+<a href="guide.html">Cẩm nang chăm sóc</a>
+<a href="about.html">Giới thiệu</a>
+</nav>
+<div class="nav-actions">
+<a class="cart-btn" href="cart.html">🛒<span class="cart-count">0</span></a>
+<button class="icon-btn mobile-menu" id="mobileMenu">☰</button>
+</div>
+</div>
+</header>
+
+<section class="page-hero">
+<div class="container">
+<h1>Thông tin thanh toán</h1>
+<p>Điền thông tin để GreenLeaf xác nhận và giao cây đến cho bạn.</p>
+</div>
+</section>
+
+<section class="section">
+<div class="container checkout-page-layout">
+
+<div class="checkout-page-card">
+<h2>👤 Thông tin khách hàng</h2>
+<p class="checkout-intro">Vui lòng điền đầy đủ thông tin bên dưới.</p>
+
+<form id="checkoutPageForm" class="checkout-page-form">
+<label>Họ và tên
+<input id="customerName" type="text" placeholder="Ví dụ: Nguyễn Văn A" required>
+</label>
+
+<label>Số điện thoại
+<input id="customerPhone" type="tel" placeholder="Ví dụ: 0901234567"
+pattern="[0-9]{9,11}" required>
+</label>
+
+<label>Email
+<input id="customerEmail" type="email" placeholder="Ví dụ: example@gmail.com" required>
+</label>
+
+<label>Địa chỉ nhận hàng
+<input id="customerAddress" type="text"
+placeholder="Số nhà, đường, phường/xã, quận/huyện..." required>
+</label>
+
+<label>Phương thức thanh toán
+<select id="paymentMethod">
+<option>Thanh toán khi nhận hàng (COD)</option>
+<option>Chuyển khoản ngân hàng</option>
+</select>
+</label>
+
+<label>Ghi chú cho đơn hàng
+<textarea id="customerNote" placeholder="Ví dụ: Giao vào buổi chiều..."></textarea>
+</label>
+
+<button type="submit" class="btn btn-dark checkout-submit">
+Xác nhận đặt hàng
+</button>
+</form>
+
+<div id="checkoutPageSuccess" class="checkout-page-success">
+<div class="success-big-icon">🌿</div>
+<h2>Đặt hàng thành công!</h2>
+<p>GreenLeaf đã nhận thông tin của bạn và sẽ liên hệ xác nhận đơn hàng trong thời gian sớm nhất.</p>
+<a href="index.html" class="btn btn-dark">Quay về trang chủ</a>
+</div>
+</div>
+
+<aside class="checkout-summary">
+<h2>🛒 Đơn hàng của bạn</h2>
+<div id="checkoutOrderList" class="checkout-order-list"></div>
+
+<div class="checkout-summary-line">
+<span>Tạm tính</span><strong id="checkoutPageSubtotal">0đ</strong>
+</div>
+<div class="checkout-summary-line">
+<span>Phí vận chuyển</span><span>Liên hệ xác nhận</span>
+</div>
+<div class="checkout-summary-total">
+<span>Tổng cộng</span><strong id="checkoutPageTotal">0đ</strong>
+</div>
+</aside>
+
+</div>
+</section>
+
+<footer><div class="container">
+<div class="footer-grid">
+<div><div class="logo" style="color:white;"><span class="logo-mark">🌿</span>GreenLeaf</div>
+<p>Mang màu xanh tự nhiên vào từng góc nhỏ trong không gian sống của bạn.</p></div>
+<div><h3>Liên kết</h3><a href="index.html">Trang chủ</a><a href="products.html">Sản phẩm</a><a href="guide.html">Cẩm nang</a><a href="about.html">Giới thiệu</a></div>
+<div><h3>Hỗ trợ</h3><a href="cart.html">Giỏ hàng</a><a href="products.html">Chọn cây</a><a href="guide.html">Chăm sóc cây</a></div>
+<div><h3>Liên hệ</h3><p>📍 123 Đường Xanh, TP. Hồ Chí Minh</p><p>☎ 0901 234 567</p><p>✉ hello@greenleaf.vn</p></div>
+</div>
+<div class="copyright">© 2026 GreenLeaf. Thiết kế website cửa hàng cây cảnh.</div>
+</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
