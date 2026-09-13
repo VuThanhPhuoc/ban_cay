@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800">
+    <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dcebd8"/><stop offset="1" stop-color="#f0e5d1"/></linearGradient></defs>
+    <rect width="900" height="800" rx="50" fill="url(#b)"/>
+    
+        <g fill="#5d965d" stroke="#3d7547" stroke-width="4"><path d="M450 610C390 490 370 330 410 170C450 260 465 420 450 610Z"/><path d="M450 610C520 490 550 330 510 170C470 260 445 430 450 610Z"/><path d="M450 610C350 530 305 430 335 300C400 380 430 470 450 610Z"/><path d="M450 610C550 530 600 430 570 300C505 380 470 470 450 610Z"/></g>
+        
+    <path d="M280 570H620L575 735Q450 780 325 735Z" fill="#a97750"/>
+    <ellipse cx="450" cy="570" rx="170" ry="28" fill="#6d4b35"/>
+    <text x="450" y="770" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#294936">Nha Đam</text>
+    </svg>
