@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800">
+    <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dcebd8"/><stop offset="1" stop-color="#f0e5d1"/></linearGradient></defs>
+    <rect width="900" height="800" rx="50" fill="url(#b)"/>
+    
+        <path d="M370 610C350 450 350 250 400 130C430 105 455 130 450 170C425 350 420 490 430 610Z" fill="#4c8552"/>
+        <path d="M445 610C435 440 470 260 535 145C565 125 590 145 575 185C515 360 490 500 500 610Z" fill="#6c9a58"/>
+        <path d="M325 610C310 450 330 300 360 215C385 190 410 205 400 250C370 390 370 500 385 610Z" fill="#3b7349"/>
+        
+    <path d="M280 570H620L575 735Q450 780 325 735Z" fill="#a97750"/>
+    <ellipse cx="450" cy="570" rx="170" ry="28" fill="#6d4b35"/>
+    <text x="450" y="770" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#294936">Lưỡi Hổ</text>
+    </svg>
