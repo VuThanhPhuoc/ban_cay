@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800">
+    <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dcebd8"/><stop offset="1" stop-color="#f0e5d1"/></linearGradient></defs>
+    <rect width="900" height="800" rx="50" fill="url(#b)"/>
+    
+        <path d="M430 570C350 470 350 250 430 170C500 230 500 420 460 570Z" fill="#3e7d4f"/>
+        <path d="M445 390C350 360 290 300 305 230C370 220 430 270 460 330Z" fill="#4d915a"/>
+        <path d="M460 470C550 430 620 360 605 280C540 280 490 330 455 390Z" fill="#326f45"/>
+        
+    <path d="M280 570H620L575 735Q450 780 325 735Z" fill="#a97750"/>
+    <ellipse cx="450" cy="570" rx="170" ry="28" fill="#6d4b35"/>
+    <text x="450" y="770" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#294936">Monstera</text>
+    </svg>
